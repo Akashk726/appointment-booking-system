@@ -72,3 +72,10 @@ Deployment
 - Create a REST API with a POST method for /booking.
 - Link to Lambda and enable CORS.
 See docs/deployment.md for detailed steps.
+
+Testing
+- Open the S3 bucket URL (e.g., http://your-bucket.s3-website-us-east-1.amazonaws.com).
+- Submit a booking and verify:
+  - Success message on the form.
+  - Booking in DynamoDB.
+  - Confirmation email in the recipient's inbox.
