@@ -35,5 +35,3 @@ appointment-booking-system/
    ```bash
    git clone <git url>
    cd appointment-booking-system
-
-
