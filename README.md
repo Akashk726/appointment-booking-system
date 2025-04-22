@@ -15,3 +15,25 @@ This project allows users to book appointments through a web form hosted on AWS 
 - Static website hosting on S3.
 
 ## Project Structure
+
+appointment-booking-system/
+├── src/
+│   ├── web/
+│   │   └── index.html       # Web form
+│   ├── lambda/
+│   │   └── index.js         # Lambda function
+├── docs/
+│   └── deployment.md        # Deployment guide
+├── .gitignore               # Git ignore file
+├── README.md                # This file
+
+
+## Setup
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone <git url>
+   cd appointment-booking-system
+
+
